@@ -11,12 +11,12 @@ and open the template in the editor.
 
 #header-image {
   width: 100%;
-  // height: 610px;
+  height: 610px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: flex-end;
-  // background-image: url("../images/phyllis_title_cropped.jpg");
+  background-image: url("../images/phyllis_title_cropped.jpg");
   background-size: cover;
   color: white;
   font-weight: bold;
