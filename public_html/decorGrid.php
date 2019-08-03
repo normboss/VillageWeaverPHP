@@ -611,7 +611,7 @@ and open the template in the editor.
         <!--<h3>Currently unavailable. Please check back again. </h3>-->
         <div class="image-block home-decor-1">
             <div><a name="flag"></a></div>
-            <img src="./images/truce_flag3.jpg" alt="picture">
+            <img src="./images/truce_flag4.jpg" alt="picture">
         </div>
         <div id="home-decor-block5b" class="copy-block home-decor">
             <!-- <br> -->

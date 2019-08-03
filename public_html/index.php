@@ -104,7 +104,7 @@ and open the template in the editor.
 
         <div class="copy-and-image">
             <div id="home-decor" class="copy-block">
-                <a href="decor.html">
+                <a href="decorGrid.php">
                     <div class="link-block">
                         <div class="heading-rows">
                             <div class="heading-row">
@@ -118,7 +118,7 @@ and open the template in the editor.
                 </a>
             </div>
             <div class="image-block">
-                <a href="decor.html">
+                <a href="decorGrid.php">
                     <img src="./images/table_runner2.jpg" alt="picture">
                 </a>
             </div>
@@ -171,7 +171,7 @@ and open the template in the editor.
             </div>
         </a>
 
-        <a href="decor.html">
+        <a href="decorGrid.php">
             <div class="index-mobile-decor index-mobile-all">
                 <div class="index-mobile-block">
                     <div class="index-mobile-decor-text index-mobile-hover">
