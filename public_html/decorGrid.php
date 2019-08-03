@@ -625,7 +625,7 @@ and open the template in the editor.
                     <div>The <span class="bold small-heading-row-centered">Flag of Truce</span> waved ending the Civil War was a simple dish
                         towel cut in half and tied to a stick. This is a hand woven replica
                         of the flag now in the Smithsonian Museum. This symbol of peace
-                        is 100% yarn dyed cotton. Peace Flag $30.00 Add to Cart
+                        is 100% yarn dyed cotton. 
                     </div>
                     <br>
                     <br>
