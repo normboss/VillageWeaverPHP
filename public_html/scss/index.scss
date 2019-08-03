@@ -16,10 +16,23 @@ and open the template in the editor.
 @import "footer";
 @import "screenSize";
 
-div {
-    border: 3px soiid red;
+#truce-flag-msg {
+    // border: 3px solid red;
+    background-color: gray; //$footerBackgroundColor;
+    width: 50%;
+    height: auto; //100px;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    @include max-mixin(800px) {
+        font-size: 22px;
+    }
 }
 
+  
 .index-container {
     font-family: "Italianno", cursive;
     width: 100%;

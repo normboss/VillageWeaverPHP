@@ -17,9 +17,13 @@ and open the template in the editor.
 
 <body>
   <header>
-    <div id="header-image">
+    <!-- <div id="header-image"> -->
       <!-- Hand Woven With Love -->
-    </div>
+      <!-- <div id="flag-msg">
+                Looking for the Flag of Truce Click <a href="decorGrid.php#flag"Here
+            </div> -->
+
+    <!-- </div> -->
     <a name="top"></a>
 
     <nav>

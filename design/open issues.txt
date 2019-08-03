@@ -1,0 +1,3 @@
+0001	plate holders
+0002	footer - space below logo and line of text at least 15 px high
+0003	about page- link to maine village weaver - “weaver” not highlighted and broken link

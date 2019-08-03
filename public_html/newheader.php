@@ -28,12 +28,17 @@ and open the template in the editor.
         });
     </script>
 </head>
+
 <body onresize="fixWidthResize()">
 
     <header id="header" onload="fixWidth()">
-        <!-- <div id="header-image">
-            Hand woven with love
-        </div> -->
+        <div id="header-image">
+            <!-- Hand woven with love -->
+            <div id="flag-msg">
+                Looking for the Flag of Truce Click Here
+            </div>
+        </div>
+
 
         <!-- topnambar #navbar -->
         <nav id="topnavbar" class="topnavbar">

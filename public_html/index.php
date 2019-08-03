@@ -26,7 +26,7 @@ and open the template in the editor.
     <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico">
     <script>
         $(function() {
-            $("#banner").load("banner.php");
+            // $("#banner").load("banner.php");
             $("#main-menu").load("main-menu.php");
             $("#footer").load("footer.php");
         });
@@ -48,11 +48,19 @@ and open the template in the editor.
     <div class="banner">
         <span class="text1">Maine Village Weaver</span><span class="text2"></span>
     </div>
-    <!-- <div id="header-image">
-        Hand woven with love
-    </div> -->
 
-    <div id="main-menu" class="home"></div>
+    <div id="header-image">
+        <!-- Hand woven with love -->
+    </div>
+
+    <div id="main-menu" class="home">
+    </div>
+<br>
+    <div id="truce-flag-msg">
+        <div>Looking for the Flag&nbsp;of&nbsp;Truce?</div>
+        <div class="spacer10"></div>
+         Click <a href="decorGrid.php#flag">Here</a>
+    </div>
 
     <div class="statement-parent">
         <div class="statement">
@@ -62,7 +70,6 @@ and open the template in the editor.
         </div>
         <div class="signature">Phyllis Leck</div>
     </div>
-
 
     <!--
             FULL SIZE PAGE
@@ -196,11 +203,11 @@ and open the template in the editor.
         // });
 
 
-            // document.getElementById("header-image").style.display = "none";
+        // document.getElementById("header-image").style.display = "none";
     </script>
     <?php
     $pagename = $_SESSION['pagename'];
-            // echo "<br>".$pagename."<br>";
+    // echo "<br>".$pagename."<br>";
     echo "<script>";
     if ($pagename == "index") {
         echo 'document.getElementById("header-image").style.display = "block"';

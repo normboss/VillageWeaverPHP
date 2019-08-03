@@ -11,7 +11,7 @@ and open the template in the editor.
   <head>
     <title>Village Weaver Header</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Euphoria+Script">
-    <link href="./css/style.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="./css/header.css" media="screen" rel="stylesheet" type="text/css">
   <body>
 
 <!--    <div class="banner">Maine Village Weaver</div>
