@@ -108,7 +108,7 @@ and open the template in the editor.
 
 
     <div class="banner">
-        <span class="text1">Maine Village Weaver</span><span class="text2">Home Decor Grid</span>
+        <span class="text1">Maine Village Weaver</span><span class="text2">Home Decor</span>
     </div>
     <div id="header-image">
         <!-- Hand woven with love -->
