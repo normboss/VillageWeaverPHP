@@ -28,7 +28,7 @@ and open the template in the editor.
         $(function() {
             // $("#banner").load("banner.php");
             $("#main-menu").load("main-menu.php");
-            $("#footer").load("footer.php");
+            // $("#footer").load("footer.php");
         });
     </script>
 
@@ -197,6 +197,10 @@ and open the template in the editor.
 
     <div id="footer">
     </div>
+    <?php
+    require 'footer1.php';
+    ?>
+
     <script>
         // $(document).ready(function () {
         //     $("#footer").load("footer.php");

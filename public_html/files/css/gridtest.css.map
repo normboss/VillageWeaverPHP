@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA;;;;EAIE;AACF;;;EAGE",
-    "sources": [
-        "../../compare/scss/gridtest.scss"
-    ],
-    "names": [],
-    "file": "gridtest.css"
-}

@@ -43,6 +43,7 @@ and open the template in the editor.
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  background-image: url("./images/phyllis_title_cropped.jpg");
   background-size: cover;
   color: white;
   font-weight: bold;
@@ -529,11 +530,24 @@ and open the template in the editor.
     Created on : Jul 25, 2018, 2:15:54 PM
     Author     : Norm
 */
+.alchemy .credit-brand {
+  font-family: "Major Mono Display", monospace;
+  font-weight: 800;
+}
+
+.alchemy .credit-name {
+  font-family: "Open Sans", sans-serif;
+}
+
+.alchemy .credit-tagline {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+}
+
 .footer-large {
-  /*border: 3px solid red;*/
   font-family: verdana;
   font-size: 0.75rem;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 100%;
   height: 260px;
   background-color: #4D2E22;
@@ -543,7 +557,6 @@ and open the template in the editor.
 }
 
 .footer-text {
-  /*border: 3px solid red;*/
   padding-left: 75px;
   overflow: hidden;
   resize: horizontal;
@@ -554,7 +567,6 @@ and open the template in the editor.
 }
 
 #footer-stuff {
-  /*border: 3px solid red;*/
   width: 25%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -594,7 +606,6 @@ and open the template in the editor.
 }
 
 #footer-links {
-  /*border: 3px solid red;*/
   width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -607,10 +618,10 @@ and open the template in the editor.
 .footer-small {
   font-family: verdana;
   font-size: 0.75rem;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 100%;
   height: 375px;
-  background-color: #4D2E22;
+  background-color: #4d2e22;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -620,7 +631,6 @@ and open the template in the editor.
 }
 
 .footer-small .footer-row-sm1 {
-  /*border: 3px solid red;*/
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -803,6 +813,39 @@ and open the template in the editor.
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.alchemy {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #4D2E22;
+  color: white;
+}
+
+.alchemy a {
+  text-decoration: underline;
+  color: white;
+}
+
+.alchemy .credit-brand {
+  font-size: 24px;
+}
+
+.alchemy .credit-name {
+  font-size: 18px;
+}
+
+.alchemy .credit-tagline {
+  font-size: 16px;
+  text-align: center;
 }
 
 @media only screen and (max-width: 1000px) {
