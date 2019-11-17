@@ -24,7 +24,7 @@ and open the template in the editor.
         $(function() {
             $("#banner").load("banner.php");
             $("#main-menu").load("main-menu.php");
-            $("#footer").load("footer.php");
+            // $("#footer").load("footer.php");
 
             var priceObj = new Prices();
             priceObj.setPrices();
@@ -84,11 +84,12 @@ and open the template in the editor.
     <?php
     $blockNum = 1;
     $mobileBlockNum = 1;
+    $add2cartAltStyle = 'style="font-weight: bold; font-size: 16px; border: 0px solid black; padding: 0px;"';
 
     function outputCode($f1, $e1, $f2, $e2, $mobile)
     {
-        echo '<img id="' . $f1 . $mobile . '" src="./images/' . $f1 . '.' . $e1 . '">';
-        echo '<img id="' . $f2 . $mobile . '" src="./images/' . $f2 . '.' . $e2 . '">';
+        echo '<img id="' . $f1 . $mobile . '" src="./images/' . $f1 . '.' . $e1 . '" alt="">';
+        echo '<img id="' . $f2 . $mobile . '" src="./images/' . $f2 . '.' . $e2 . '" alt="">';
         echo '<span class = "click-for-closeup">Click image for alternate view</span>';
         echo '<script>';
         echo 'document.getElementById( "' . $f2 . $mobile . '" ).style.display = "none";';
@@ -147,9 +148,9 @@ and open the template in the editor.
     <div class="decor-block0">
         <div class="box box0">
             <div id="home-decor-block1a" class="image-block swag-image-block">
-                <!--<img id="decor_v4_png" src="./images/decor_v4.png" class="image-bottom" alt="Image1">-->
-                <img id="decor_v4_png" src="./images/swag_detail.jpg" class="image-bottom" alt="Image1">
-                <img id="swag_jpg" src="./images/swag.jpg" class="img-top" alt="Image1">
+                <!--<img id="decor_v4_png" src="./images/decor_v4.png" class="image-bottom" alt="">-->
+                <img id="decor_v4_png" src="./images/swag_detail.jpg" class="image-bottom" alt="">
+                <img id="swag_jpg" src="./images/swag.jpg" class="img-top" alt="">
                 <script>
                     document.getElementById('swag_jpg').style.display = 'none';
                     swag_jpg.onclick = function() {
@@ -190,7 +191,7 @@ and open the template in the editor.
         </div>
 
         <div class="box box2">
-            <img src="./images/decor_v4.png" alt="picture">
+            <img src="./images/decor_v4.png" alt="">
             <div>Custom length swag measures 150 inches.</div>
         </div>
     </div>
@@ -207,8 +208,8 @@ and open the template in the editor.
         <!--<div  class="copy-and-image">-->
 
         <div id="home-decor-block1a" class="image-block swag-image-block">
-            <img id="decor_v4_png" src="./images/decor_v4.png" class="image-bottom" alt="Image1">
-            <img id="swag_jpg" src="./images/swag.jpg" class="img-top" alt="Image1">
+            <img id="decor_v4_png" src="./images/decor_v4.png" class="image-bottom" alt="Swag over window looking out of kitchen.">
+            <img id="swag_jpg" src="./images/swag.jpg" class="img-top" alt="">
             <script>
                 document.getElementById('swag_jpg').style.display = 'none';
                 swag_jpg.onclick = function() {
@@ -266,7 +267,7 @@ and open the template in the editor.
             ***********************************************************-->
         <!--<div  class="copy-and-image">-->
         <div class="image-block">
-            <img src="./images/swag_cafe.jpg" alt="picture">
+            <img src="./images/swag_cafe.jpg" alt="">
             <div class="spacer10"></div>
         </div>
         <div id="home-decor-block1b" class="copy-block home-decor">
@@ -282,7 +283,7 @@ and open the template in the editor.
                     <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                         <input type="hidden" name="cmd" value="_s-xclick">
                         <input type="hidden" name="hosted_button_id" value="RZNLJ3CS9R9BC">
-                        <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                        <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
                         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                     </form>
                 </div>
@@ -296,7 +297,7 @@ and open the template in the editor.
                     <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                         <input type="hidden" name="cmd" value="_s-xclick">
                         <input type="hidden" name="hosted_button_id" value="SLVJDCSX3K9RG">
-                        <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                        <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
                         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                     </form>
                 </div>
@@ -323,7 +324,7 @@ and open the template in the editor.
                     <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                         <input type="hidden" name="cmd" value="_s-xclick">
                         <input type="hidden" name="hosted_button_id" value="DE7F6XSL27F5J">
-                        <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                        <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
                         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                     </form>
                 </div>
@@ -344,7 +345,7 @@ and open the template in the editor.
 
         <!--<div class="copy-and-image">-->
         <div class="image-block">
-            <img src="./images/knotweed_panel.jpg" alt="picture">
+            <img src="./images/knotweed_panel.jpg" alt="">
         </div>
         <div id="home-decor-block2" class="copy-block home-decor">
             <div class="content-text-block">
@@ -371,7 +372,7 @@ and open the template in the editor.
                         <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                             <input type="hidden" name="cmd" value="_s-xclick">
                             <input type="hidden" name="hosted_button_id" value="26P9HF4FVFUXW">
-                            <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                            <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
                             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                         </form>
                     </div>
@@ -391,7 +392,7 @@ and open the template in the editor.
 
         <!--<div class="copy-and-image">-->
         <div class="image-block home-decor-1 decor3-image1">
-            <!--<img src="./images/2panel_curtain1.jpg" alt="picture" >-->
+            <!--<img src="./images/2panel_curtain1.jpg" alt="" >-->
             <!--<br>-->
             <?php outputCode("two_panel_curtain1", "jpg", "detail_slub_thumb", "jpg", ""); ?>
 
@@ -420,7 +421,7 @@ and open the template in the editor.
                     <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                         <input type="hidden" name="cmd" value="_s-xclick">
                         <input type="hidden" name="hosted_button_id" value="STCPWCVZWFXCU">
-                        <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                        <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
                         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                     </form>
                 </div>
@@ -442,7 +443,7 @@ and open the template in the editor.
                     <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                         <input type="hidden" name="cmd" value="_s-xclick">
                         <input type="hidden" name="hosted_button_id" value="YJYLYTTBGNEKY">
-                        <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                        <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
                         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                     </form>
                 </div>
@@ -463,7 +464,7 @@ and open the template in the editor.
     <div class="home-decor-container">
         <!--<div class="copy-and-image">-->
         <div class="image-block home-decor-1">
-            <img src="./images/table_runner2.jpg" alt="picture">
+            <img src="./images/table_runner2.jpg" alt="">
         </div>
         <div id="home-decor-block4" class="copy-block home-decor">
 
@@ -489,7 +490,7 @@ and open the template in the editor.
                     <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                         <input type="hidden" name="cmd" value="_s-xclick">
                         <input type="hidden" name="hosted_button_id" value="QH4QVF89249X6">
-                        <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                        <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
                         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                     </form>
                 </div>
@@ -511,7 +512,7 @@ and open the template in the editor.
         <!--<div class="copy-and-image">-->
         <!--<h3>Currently unavailable. Please check back again. </h3>-->
         <div class="image-block home-decor-1">
-            <img src="./images/folk_flag.jpg" alt="picture">
+            <img src="./images/folk_flag.jpg" alt="">
         </div>
         <div id="home-decor-block5" class="copy-block home-decor">
             <br>
@@ -538,7 +539,7 @@ and open the template in the editor.
                         <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                             <input type="hidden" name="cmd" value="_s-xclick">
                             <input type="hidden" name="hosted_button_id" value="3L8U9RF9783BY">
-                            <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                            <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
                             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                         </form>
                     </div>
@@ -563,7 +564,7 @@ and open the template in the editor.
             <br>
             <br>
             <div class="spacer10"></div>
-            <img src="./images/flag_wall_large.jpg" alt="picture">
+            <img src="./images/flag_wall_large.jpg" alt="">
             <div class="decor5a-image-spacer"></div>
         </div>
         <div id="home-decor-block5a" class="copy-block home-decor5a">
@@ -590,7 +591,7 @@ and open the template in the editor.
                         <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                             <input type="hidden" name="cmd" value="_s-xclick">
                             <input type="hidden" name="hosted_button_id" value="RVGHUVBDQWY9U">
-                            <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                            <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
                             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                         </form>
                 </div>
@@ -611,7 +612,7 @@ and open the template in the editor.
         <!--<h3>Currently unavailable. Please check back again. </h3>-->
         <div class="image-block home-decor-1">
             <div><a name="flag"></a></div>
-            <img src="./images/truce_flag4.jpg" alt="picture">
+            <img src="./images/truce_flag4.jpg" alt="">
         </div>
         <div id="home-decor-block5b" class="copy-block home-decor">
             <!-- <br> -->
@@ -637,7 +638,7 @@ and open the template in the editor.
                         <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                             <input type="hidden" name="cmd" value="_s-xclick">
                             <input type="hidden" name="hosted_button_id" value="RTQVPRWY2WZPQ">
-                            <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                            <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
                             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                         </form>
                     </div>
@@ -651,7 +652,7 @@ and open the template in the editor.
                         <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                             <input type="hidden" name="cmd" value="_s-xclick">
                             <input type="hidden" name="hosted_button_id" value="X5FKBD7R8T3CS">
-                            <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                            <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
                             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                         </form>
                     </div>
@@ -662,7 +663,7 @@ and open the template in the editor.
                         <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                             <input type="hidden" name="cmd" value="_s-xclick">
                             <input type="hidden" name="hosted_button_id" value="4TLZM5HAZY8MN">
-                            <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                            <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
                             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                         </form>
                     </div>
@@ -692,7 +693,7 @@ and open the template in the editor.
         <!--<div class="shelf-bracket-container">-->
         <!--<div class="copy-and-image">-->
         <div class="image-block home-decor-1">
-            <img src="./images/bracket_B193.jpg" alt="picture">
+            <img src="./images/bracket_B193.jpg" alt="">
         </div>
 
         <div id="home-decor-block6" class="copy-block home-decor  large-bracket-set">
@@ -724,7 +725,7 @@ and open the template in the editor.
                         <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                             <input type="hidden" name="cmd" value="_s-xclick">
                             <input type="hidden" name="hosted_button_id" value="MQ7GQ5FE929AS">
-                            <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                            <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
                             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                         </form>
                     </div>
@@ -744,7 +745,7 @@ and open the template in the editor.
         <!--<div class="shelf-bracket-container">-->
         <!--<div class="copy-and-image">-->
         <div class="image-block home-decor-1">
-            <img src="./images/bracket_B19s.jpg" alt="picture">
+            <img src="./images/bracket_B19s.jpg" alt="">
         </div>
         <div id="home-decor-block7" class="copy-block home-decor small-bracket-set">
             <div class="spacer20"></div>
@@ -771,7 +772,7 @@ and open the template in the editor.
                     <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                         <input type="hidden" name="cmd" value="_s-xclick">
                         <input type="hidden" name="hosted_button_id" value="N4NFWE5Z6VK2J">
-                        <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                        <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
                         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                     </form>
                 </div>
@@ -789,7 +790,7 @@ and open the template in the editor.
     <!--<div class="copy-and-image">-->
     <div class="home-decor-container">
         <div class="image-block home-decor-1">
-            <img src="./images/bracket_shelf.jpg" alt="picture">
+            <img src="./images/bracket_shelf.jpg" alt="">
         </div>
         <div id="home-decor-block8" class="copy-block home-decor shelf-bracket">
             <div class="spacer20"></div>
@@ -821,7 +822,7 @@ and open the template in the editor.
                     <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                         <input type="hidden" name="cmd" value="_s-xclick">
                         <input type="hidden" name="hosted_button_id" value="ULHL8NMSDD6DS">
-                        <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                        <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
                         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                     </form>
                 </div>
@@ -838,6 +839,9 @@ and open the template in the editor.
 
 
     <div id="footer"></div>
+    <?php
+    require 'footer1.php';
+    ?>
 
 </body>
 

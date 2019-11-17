@@ -27,6 +27,7 @@ and open the template in the editor.
     Created on : Jul 25, 2018, 1:17:13 PM
     Author     : Norm
 */
+@import url("https://fonts.googleapis.com/css?family=Major+Mono+Display|Open+Sans:400,400i,600,700,800");
 #header-image {
   width: 100%;
   height: 610px;
@@ -512,6 +513,40 @@ a {
   font-size: 1.1rem;
 }
 
+.alchemy1 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #4D2E22;
+  color: #957a2b;
+  color: #957a2b;
+}
+
+.alchemy1 a {
+  text-decoration: underline;
+  color: #957a2b;
+}
+
+.alchemy1 .credit-brand {
+  font-size: 18px;
+}
+
+.alchemy1 .credit-name {
+  font-size: 16px;
+}
+
+.alchemy1 .credit-tagline {
+  font-size: 14px;
+  text-align: center;
+}
+
 /*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
@@ -530,16 +565,16 @@ and open the template in the editor.
     Created on : Jul 25, 2018, 2:15:54 PM
     Author     : Norm
 */
-.alchemy .credit-brand {
+.alchemy1 .credit-brand {
   font-family: "Major Mono Display", monospace;
   font-weight: 800;
 }
 
-.alchemy .credit-name {
+.alchemy1 .credit-name {
   font-family: "Open Sans", sans-serif;
 }
 
-.alchemy .credit-tagline {
+.alchemy1 .credit-tagline {
   font-family: "Open Sans", sans-serif;
   font-style: italic;
 }
@@ -558,8 +593,6 @@ and open the template in the editor.
 
 .footer-text {
   padding-left: 75px;
-  overflow: hidden;
-  resize: horizontal;
 }
 
 .footer-text li {
@@ -582,7 +615,6 @@ and open the template in the editor.
           align-items: center;
   /* solid red;*/
   padding-right: 40px;
-  overflow: hidden;
   resize: none;
 }
 
@@ -813,39 +845,6 @@ and open the template in the editor.
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.alchemy {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #4D2E22;
-  color: white;
-}
-
-.alchemy a {
-  text-decoration: underline;
-  color: white;
-}
-
-.alchemy .credit-brand {
-  font-size: 24px;
-}
-
-.alchemy .credit-name {
-  font-size: 18px;
-}
-
-.alchemy .credit-tagline {
-  font-size: 16px;
-  text-align: center;
 }
 
 @media only screen and (max-width: 1000px) {

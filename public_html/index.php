@@ -97,7 +97,8 @@ and open the template in the editor.
             </div>
             <div class="image-block">
                 <a href="shawls.php">
-                    <img src="./images/shawl_steel_a.jpg" alt="picture">
+                    <img src="./images/shawl_steel_a.jpg" alt="Asymetrical wrap in steel grey."
+                    style="font-family: Arial; font-size: 22px;">
                 </a>
             </div>
         </div>
@@ -119,7 +120,8 @@ and open the template in the editor.
             </div>
             <div class="image-block">
                 <a href="decorGrid.php">
-                    <img src="./images/table_runner2.jpg" alt="picture">
+                    <img src="./images/table_runner2.jpg" alt="Open weave knotweed table runner."
+                    style="font-family: Arial; font-size: 22px;">
                 </a>
             </div>
         </div>
@@ -141,7 +143,8 @@ and open the template in the editor.
             </div>
             <div class="image-block">
                 <a href="https://www.etsy.com/shop/mainevillageweaver">
-                    <img src="./images/decor_mobile.jpg" alt="picture">
+                    <img src="./images/decor_mobile.jpg" alt="Assortment of woven products."
+                    style="font-family: Arial; font-size: 22px;">
                 </a>
             </div>
         </div>

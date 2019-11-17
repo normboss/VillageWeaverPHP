@@ -22,7 +22,7 @@ and open the template in the editor.
       $(function () {
         $("#banner").load("banner.php");
         $("#main-menu").load("main-menu.php");
-        $("#footer").load("footer.php");
+        // $("#footer").load("footer.php");
 
       });
     </script> 
@@ -71,7 +71,7 @@ and open the template in the editor.
         <!--<h2>Block 1</h2>-->
         <div id="block1" class="copy-and-image">
           <div class="image-block">
-            <img src="./images/door_open.jpg" alt="picture" >
+            <img src="./images/door_open.jpg" alt="Front of Phyllis's shop with flowers hanging from wrought iron bracket." >
           </div>
           <div class="copy-block">
             <!--            <div class="small-heading-row">
@@ -124,7 +124,7 @@ and open the template in the editor.
         <!--<h2>Block 2</h2>-->
         <div id="block2" class="copy-and-image">
           <div class="image-block">
-            <img src="./images/loom.jpg" alt="picture" >
+            <img src="./images/loom.jpg" alt="Inside Phyllis's well lighted shop showing her loom." >
             <div class="content-text-block">
               <div>
                 <p>The early patterns are the foundation of my knowledge
@@ -157,7 +157,7 @@ of time and solitude allowed me to focus on my weaving.
               </div>
               <br>
               <div class="about-block2-image">
-                <img src="./images/shuttle_2.jpg">
+                <img src="./images/shuttle_2.jpg" alt="Shuttle used in weaving.">
               </div>
             </div>  <!-- end content-text-block -->
           </div>  <!-- end copy-block -->
@@ -171,7 +171,7 @@ of time and solitude allowed me to focus on my weaving.
         <!--<h1>Block 3</h1>-->
         <div id="block2" class="copy-and-image">
           <div class="image-block">
-            <img src="./images/andy_phyllis.jpg" alt="picture" >
+            <img src="./images/andy_phyllis.jpg" alt="" >
             Andy and Phyllis Leck
           </div>
           <div class="copy-block">
@@ -307,5 +307,8 @@ stories. We were featured in the magazines
 
 
     <div id="footer"></div>
+    <?php
+    require 'footer1.php';
+    ?>
   </body>
 </html>
