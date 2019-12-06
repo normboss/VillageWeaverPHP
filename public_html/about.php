@@ -173,7 +173,8 @@ and open the template in the editor.
             <!--<h1>Block 3</h1>-->
             <div id="block2" class="copy-and-image">
                 <div class="image-block">
-                    <img src="./images/phyllis_weavingshuttle.png" alt="Phyllis Leck using a shuttle at a 16 harness loom.">
+                    <img src="./images/phyllis_weavingshuttle.png" alt="">
+                    Phyllis at a 16 harness loom
                 </div>
                 <div class="copy-block">
                     <div class="small-heading-row about-mobile-text1">
@@ -252,7 +253,7 @@ and open the template in the editor.
                 </P>
             </div>
             <div class="about-mobile-text1 about-copy-block">
-                <img src="./images/door_open_mobile.jpg" alt="picture">
+                <img src="./images/door_open_mobile.jpg" alt="">
             </div>
             <br>
             <div class="about-mobile-text1 about-copy-block">
@@ -285,7 +286,7 @@ and open the template in the editor.
             </div>
             <br>
             <div class="about-mobile-text1">
-                <img src="./images/loom_mobile.jpg">
+                <img src="./images/loom_mobile.jpg" alt="">
             </div>
             <br>
             <div class="about-mobile-text1">
@@ -307,7 +308,7 @@ and open the template in the editor.
                 </p>
             </div>
             <div class="about-block2-image">
-                <img src="./images/shuttle_2.jpg">
+                <img src="./images/shuttle_2.jpg" alt="">
             </div>
         </div> <!-- end about-mobile-block -->
         <div class="spacer"></div>
@@ -332,8 +333,8 @@ and open the template in the editor.
                 </div>
                 <br>
             </div>
-            <img src="./images/phyllis_weavingshuttle.png">
-            Andy and Phyllis Leck
+            <img src="./images/phyllis_weavingshuttle.png" alt="">
+            Phyllis at a 16 harness loom
             <br>
         </div> <!-- end about-mobile-block -->
 
@@ -354,7 +355,7 @@ and open the template in the editor.
                     in Damariscotta, Maine.
                 </div>
             </div>
-            <img src="./images/andy_phyllis_mobile.jpg">
+            <img src="./images/andy_phyllis_mobile.jpg" alt="">
             Andy and Phyllis Leck
             <br>
         </div>
