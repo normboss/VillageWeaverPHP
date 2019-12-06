@@ -76,6 +76,14 @@ and open the template in the editor.
     .content-text-block {
       /*border: 3px solid red;*/
       background-color: #F3F4F5;
+      .move-right {
+        //   border: 3px solid red;
+          width: auto;
+          display: flex;
+          justify-content: flex-end;
+          padding-right: 20px;
+      }
+    
     }
   }
 
@@ -140,11 +148,19 @@ and open the template in the editor.
   text-align: center;
   /*border: 3px solid red;*/
 }
+
 .about-mobile-text1 {
   width: 80%;
   border: 0px solid green;
   /*width: 50%;*/
   padding: 0 50px 0 50px;
+  .move-right {
+    //   border: 3px solid red;
+      width: auto;
+      display: flex;
+      justify-content: flex-end;
+      padding-right: 20px;
+  }
 }
 .about-mobile-block {
   background-color: #F3F4F5;
