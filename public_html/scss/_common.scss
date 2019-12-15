@@ -217,7 +217,43 @@ a {
 }
 
 
-.alchemy1 {
+.alchemy-wide {
+    // border: 4px solid black;
+    width: 100%;
+    // height: 50px;
+    // padding-top: 10px;
+    // padding-bottom: 25px;
+    display: flex;
+    @include max-mixin(800px) {
+        display: none;
+    }
+    // flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $footerBackgroundColor;
+    color: #957a2b; //white;
+
+    a {
+        text-decoration: underline;
+        color: #957a2b; //white;
+    }
+      
+    .credit-brand {
+        @extend %font-credit-brand;
+        font-size: 18px;
+    }
+    .credit-name {
+        @extend %font-credit-name;
+        font-size: 16px;
+    }
+    .credit-tagline {
+        @extend %font-credit-tagline;
+        font-size: 14px;
+        text-align: center;
+    }
+    color: #957a2b; //white;
+}
+.alchemy-narrow {
     // border: 4px solid black;
     width: 100%;
     // height: 50px;

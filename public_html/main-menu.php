@@ -41,7 +41,7 @@ and open the template in the editor.
       </div>
 
       <span class="menu-item"><a href="about.php">About</a></span>
-      <span class="menu-item"><a href="contact.php" target="_blank">Contact</a></span>
+      <span class="menu-item"><a href="contact1.php" target="_blank">Contact</a></span>
       <span class="menu-item"><a href="subscribe.php">Subscribe</a></span>
       <!--<span class="menu-item">-->
       <div class="menu-item">

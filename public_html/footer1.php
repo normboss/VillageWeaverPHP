@@ -25,7 +25,7 @@
         <div class="footer-spacer"></div>
         <div class="footer-spacer"></div>
         <div class="footer-small-links">
-            <span class="newsletter"><a href="contact.php">Contact</a></span>
+            <span class="newsletter"><a href="contact1.php">Contact</a></span>
             <span class="newsletter"><a href="subscribe.php">Subscribe</a></span>
         </div>
     </div>
@@ -44,7 +44,7 @@
         </div>
 
         <div id="footer-links">
-            <a href="contact.html"><img src="./images/email_small.png" alt="Contact" style="color: white; font-size: 16px;"></a>
+            <a href="contact1.php"><img src="./images/email_small.png" alt="Contact" style="color: white; font-size: 16px;"></a>
             <a href="https://www.instagram.com" target="_blank"><img src="./images/instagram_small.png" alt="Instagram" style="color: white; font-size: 16px;"></a>
             <a href="https://www.pinterest.com/villageweaver/?eq=Maine%20Village&etslf=7601" target="_blank"><img src="./images/pininterest_small.png" alt="Pinintest" style="color: white; font-size: 16px;"></a>
             <a href="https://twitter.com/mevillageweaver" target="_blank"><img src="./images/twitter_small.png" alt="Twitter" style="color: white; font-size: 16px;"></a>
@@ -54,7 +54,7 @@
     </div>
 
 </footer>
-<div class="alchemy1">
+<div class="alchemy-wide">
     <a href="https://www.alchemywebdesigns.com">
         <div>
             <span class="credit-brand ">Alchemy</span><span class="credit-name"> Web Designs</span>
@@ -101,21 +101,21 @@
         <div class="footer-spacer"></div>
         <div class="footer-spacer"></div>
         <div class="footer-small-links">
-            <span class="newsletter"><a href="contact.html">Contact</a></span>
+            <span class="newsletter"><a href="contact1.php">Contact</a></span>
             <span class="newsletter"><a href="subscribe.html">Subscribe</a></span>
         </div>
     </div> <!-- end footer-row-sm1 -->
 
     <div class="footer-links-sm">
         <!--<a href="mailto:norm.bosse0@gmail.com"><img src="./images/email_small.png"></a>-->
-        <a href="contact.html"><img src="./images/email_small.png" alt="Contact" style="color: white; font-size: 16px;"></a>
+        <a href="contact1.php"><img src="./images/email_small.png" alt="Contact" style="color: white; font-size: 16px;"></a>
         <a href="https://http://pinterest.com" target="_blank"><img src="./images/pininterest_small.png" alt="Pinintest" style="color: white; font-size: 16px;"></a>
         <a href="https://www.instagram.com" target="_blank"><img src="./images/instagram_small.png" alt="Instagram" style="color: white; font-size: 16px;"></a>
         <!--<div class="fb-like" data-href="https://www.facebook.com/njbosse" data-width="50" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>-->
         <a href="https://twitter.com/mevillageweaver" target="_blank"><img src="./images/twitter_small.png" alt="Twitter" style="color: white; font-size: 16px;"></a>
 
     </div>
-    <div class="alchemy1">
+    <div class="alchemy-narrow">
         <a href="https://www.alchemywebdesigns.com">
             <div>
                 <span class="credit-brand ">Alchemy</span><span class="credit-name"> Web Designs.com</span>
