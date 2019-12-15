@@ -61,7 +61,8 @@ and open the template in the editor.
 
                 <!--A hidden tag. This tag means it cannot be seen by your customers and tells the 
                     form where to e-mail the contents of the form. -->
-                <input type="hidden" name="my_email" value="norm.bosse0@gmail.com">
+                <!-- <input type="hidden" name="my_email" value="norm.bosse0@gmail.com"> -->
+                <input type="hidden" name="my_email" value="leck@midcoast.com">
 
                 <!--How to create an input field
                         Create an input field for each piece of data you wish to collect
@@ -107,7 +108,7 @@ and open the template in the editor.
                   To send them to a specific page after they have completed the form successfully by using the tag below and replacing "yoururl" with the page name. The URL does not have to be on your site or even hosted with Domain.com. It is best to use full path names (http://www.yoursite.com/page.html) and not local paths (/page/html).
               -->
                 <!-- <input type="hidden" name="thankyou_url" value="https://www.mainevillageweaver.com/thankyou.html"> -->
-                <input type="hidden" name="thankyou_url" value="https://www.alchemywebdesigns.com/files/pages/html/thankyou.html">
+                <input type="hidden" name="thankyou_url" value="https://www.mainevillageweaver.com/files/pages/html/thankyou.html">
 
                 <!-- If a customer fills out your form incorrectly, you can customize the "error" page by they see inserting the following line of code in your form:
               -->
