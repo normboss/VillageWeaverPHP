@@ -107,11 +107,10 @@ and open the template in the editor.
             </div>
             <div class="spacer10"></div>
             <div class="content-text-block">
-                <div>Cotton and wool shawl woven in my signature
-                    open weave has a lovely drape.
-                    The white cotton threads are dyed with brown
-                    walnut shells and the wool yarn hand dyed
-                    with local "knotweed" plants.
+                <div>
+                    Cotton and wool shawl woven in my signature open weave has a lovely drape.
+                    The white cotton threads are dyed with brown walnut shells and the wool yarn
+                    hand dyed with “Japanese Knotweed" plants.
                 </div>
                 <div>The natural colors go well with linen.</div>
                 <br>
@@ -124,8 +123,7 @@ and open the template in the editor.
                     <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                         <input type="hidden" name="cmd" value="_s-xclick">
                         <input type="hidden" name="hosted_button_id" value="H58D6B76QXXN8">
-                        <input type="image" src="./images/add_cart_grey.png" border="0" name="submit"
-                         alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
+                        <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
                         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                     </form>
                 </div>
@@ -136,7 +134,8 @@ and open the template in the editor.
         <!--BLOCK 2-->
 
         <div class="image-block steel-grey-shawl-images">
-            <img src="./images/shawl_steel.jpg" alt="">
+            <?php outputCode("steel_grey_shawl1", "png", "shawl_steel", "jpg", ""); ?>
+            <!-- <img src="./images/shawl_steel.jpg" alt=""> -->
         </div>
         <div class="copy-block block2 shawl-text2">
             <br>
@@ -287,8 +286,7 @@ and open the template in the editor.
                     <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                         <input type="hidden" name="cmd" value="_s-xclick">
                         <input type="hidden" name="hosted_button_id" value="BA36VTLPPRRB8">
-                        <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" 
-                        alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
+                        <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
                         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                     </form>
                 </div>
@@ -309,7 +307,9 @@ and open the template in the editor.
         <div class="image-block">
             <!--<img src="./images/wrap_jewel.jpg" alt="" >-->
 
-            <?php outputCode("wrap_asm_jewel1", "jpg", "wrap_asm_teal_2a", "jpg", ""); ?>
+            <!-- <?php //outputCode("wrap_asm_jewel1", "jpg", "wrap_asm_teal_2a", "jpg", ""); 
+                    ?> -->
+            <?php outputCode("asym_jewel_wrap1_2xB", "png", "wrap_asm_jewel1", "jpg", ""); ?>
         </div>
         <!--<div id="asymmetrical" class="copy-block shawl-text6">-->
         <div class="copy-block shawl-text6">
@@ -347,8 +347,7 @@ and open the template in the editor.
                         <br>
                         <div class="add-to-cart-button">
                             <input type="hidden" name="currency_code" value="USD">
-                            <input type="image" src="./images/add_cart_grey.png" border="0" name="submit"
-                            alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
+                            <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
                             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                         </div>
                     </form>
@@ -384,8 +383,7 @@ and open the template in the editor.
                     <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                         <input type="hidden" name="cmd" value="_s-xclick">
                         <input type="hidden" name="hosted_button_id" value="5EHJMB99TAX3E">
-                        <input type="image" src="./images/add_cart_grey.png" border="0" name="submit"
-                        alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
+                        <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
                         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                     </form>
                 </div>
@@ -423,8 +421,7 @@ and open the template in the editor.
                     <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                         <input type="hidden" name="cmd" value="_s-xclick">
                         <input type="hidden" name="hosted_button_id" value="DZWXBXZRUKD5J">
-                        <input type="image" src="./images/add_cart_grey.png" border="0" name="submit"
-                        alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
+                        <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
                         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                     </form>
                 </div>
@@ -466,8 +463,7 @@ and open the template in the editor.
                     <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                         <input type="hidden" name="cmd" value="_s-xclick">
                         <input type="hidden" name="hosted_button_id" value="49GQQZK8R9XDU">
-                        <input type="image" src="./images/add_cart_grey.png" border="0" name="submit"
-                        alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
+                        <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
                         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                     </form>
                 </div>
@@ -478,7 +474,8 @@ and open the template in the editor.
         <!--Block 10-->
 
         <div class="image-block">
-            <img src="./images/shawlsM_v3.png" alt="">
+            <?php outputCode("knotweed_wrap1_2x", "png", "shawlsM_v3", "png", ""); ?>
+            <!-- <img src="./images/shawlsM_v3.png" alt=""> -->
         </div>
         <div id="asymmetrical" class="copy-block shawl-text10">
             <br>
@@ -490,13 +487,10 @@ and open the template in the editor.
                 <div class="content-text-block">
                     <br>
                     <div>
-                        Light and fluid cotton and wool wrap woven
-                        in my signature open weave.
-                        The white cotton threads are dyed with brown
-                        walnut shells and the wool yarn hand dyed
-                        with local "knotweed" plants.
-                        The natural colors dress up jeans and look
-                        terrific with linen.
+                        Light and fluid cotton and wool wrap woven in my signature open weave.
+                        The white cotton threads are dyed with brown walnut shells and the wool
+                        yarn hand dyed with “Japanese knotweed” plants. The natural colors dress
+                        up jeans and look terrific with linen.
                     </div>
                     <br>
                     <div class="description-and-price">
@@ -521,8 +515,7 @@ and open the template in the editor.
                             </table>
                             <br>
                             <br>
-                            <input type="image" src="./images/add_cart_grey.png" border="0" name="submit"
-                            alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
+                            <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
                             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                         </form>
                     </div>
@@ -562,8 +555,7 @@ and open the template in the editor.
                         <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                             <input type="hidden" name="cmd" value="_s-xclick">
                             <input type="hidden" name="hosted_button_id" value="U5T94UQ4ERBXE">
-                            <input type="image" src="./images/add_cart_grey.png" border="0" name="submit"
-                            alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
+                            <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
                             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                         </form>
                     </div>
@@ -584,10 +576,9 @@ and open the template in the editor.
             </div>
             <div class="spacer20"></div>
             <div class="content-text-block">
-                <div>Soft cotton and wool scarf is hand</div>
-                <div>dyed using local plants. Black </div>
-                <div>walnut shells color the cotton and </div>
-                <div>the wool/tencel blend is dyed using locally gathered knotweed. </div>
+                Soft cotton and wool scarf is hand dyed using local plants.
+                Black walnut shells color the cotton and the wool / tencel
+                blend is dyed using locally gathered Japanese Knotweed.
                 <div>Each one unique as color varies in shades of warm linen. </div>
                 <br>
                 <div class="description-and-price">
@@ -602,8 +593,7 @@ and open the template in the editor.
                         <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                             <input type="hidden" name="cmd" value="_s-xclick">
                             <input type="hidden" name="hosted_button_id" value="98MJLASZK2MZY">
-                            <input type="image" src="./images/add_cart_grey.png" border="0" name="submit"
-                            alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
+                            <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
                             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                         </form>
                     </span>
@@ -615,19 +605,19 @@ and open the template in the editor.
         <!--BLOCK 13-->
 
         <div class="image-block">
-            <img src="./images/scarf_sea_glass.jpg" alt="">
+            <!-- <img src="./images/scarf_sea_glass.jpg" alt=""> -->
+            <?php outputCode("ocean_blue_scarf1_2x", "png", "scarf_sea_glass", "jpg", ""); ?>
         </div>
         <div id="asymmetrical" class="copy-block shawl-text13">
             <br>
             <div class="small-heading-row">
-                Sea Glass Scarf<span class="dev"><?php echo $blockNum++; ?></span>
+                Merino / Cotton Bouclé Scarf<span class="dev"><?php echo $blockNum++; ?></span>
             </div>
             <div class="spacer20"></div>
             <div class="content-text-block">
-                <div>The greens and blues of beach</div>
-                <div>sea glass are woven together</div>
-                <div>to create this lovely scarf.</div>
-                <div>Cotton/merino rayon boucle'. </div>
+                Lovely scarf hand woven in deep ocean blues Is also available
+                in the greens and blues of beach sea glass.
+                Cotton / Merino Rayon Boucle’
                 <div>Hand wash.</div>
                 <br>
                 <div class="description-and-price">
@@ -639,13 +629,31 @@ and open the template in the editor.
                 <div class="add-to-cart">
                     <span></span>
                     <span>
+                        <!-- <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="7JKAR8CNBQS5Q">
+                            <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
+                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                        </form> -->
+
                         <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                             <input type="hidden" name="cmd" value="_s-xclick">
                             <input type="hidden" name="hosted_button_id" value="7JKAR8CNBQS5Q">
-                            <input type="image" src="./images/add_cart_grey.png" border="0" name="submit"
-                            alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
+                            <table>
+                                <tr>
+                                    <td><input type="hidden" name="on0" value="Color">Color:</td>
+                                </tr>
+                                <tr>
+                                    <td><select name="os0">
+                                            <option value="Ocean Blue - OB">Ocean Blue - OB </option>
+                                            <option value="Sea Glass - SESC">Sea Glass - SESC </option>
+                                        </select> </td>
+                                </tr>
+                            </table>
+                            <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
                             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                         </form>
+
                     </span>
                 </div>
             </div>
