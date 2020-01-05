@@ -309,7 +309,7 @@ and open the template in the editor.
 
             <!-- <?php //outputCode("wrap_asm_jewel1", "jpg", "wrap_asm_teal_2a", "jpg", ""); 
                     ?> -->
-            <?php outputCode("asym_jewel_wrap1_2xB", "png", "wrap_asm_jewel1", "jpg", ""); ?>
+            <?php outputCode("asym_jewel_wrap1a_2xC", "png", "wrap_asm_jewel1", "jpg", ""); ?>
         </div>
         <!--<div id="asymmetrical" class="copy-block shawl-text6">-->
         <div class="copy-block shawl-text6">
@@ -474,7 +474,7 @@ and open the template in the editor.
         <!--Block 10-->
 
         <div class="image-block">
-            <?php outputCode("knotweed_wrap1_2x", "png", "shawlsM_v3", "png", ""); ?>
+            <?php outputCode("knotweed_wrap1a_2x", "png", "shawlsM_v3", "png", ""); ?>
             <!-- <img src="./images/shawlsM_v3.png" alt=""> -->
         </div>
         <div id="asymmetrical" class="copy-block shawl-text10">
