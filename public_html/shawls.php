@@ -134,8 +134,7 @@ and open the template in the editor.
         <!--BLOCK 2-->
 
         <div class="image-block steel-grey-shawl-images">
-            <?php outputCode("steel_grey_shawl1", "png", "shawl_steel", "jpg", ""); ?>
-            <!-- <img src="./images/shawl_steel.jpg" alt=""> -->
+            <?php outputCode("shawl_steel3_2x", "png", "steel_grey_shawl1", "png", ""); ?>
         </div>
         <div class="copy-block block2 shawl-text2">
             <br>
