@@ -19,7 +19,6 @@ and open the template in the editor.
     <link href="./css/shawls.css" media="screen" rel="stylesheet" type="text/css">
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <script src="./js/prices1.js"></script>
-    <!--<script src="./js/handlers.js"></script>-->
 
     <script>
         $(function() {
@@ -94,11 +93,10 @@ and open the template in the editor.
         <!--BLOCK 1-->
 
         <div class="image-block">
-            <!--<img src="./images/shawl_knot1.jpg" alt="" >-->
             <?php outputCode("shawl_knotweed1", "jpg", "shawl_knotweed2a", "jpg", ""); ?>
         </div>
         <div class="copy-block shawl-text1">
-            <br>
+            <div class="spacer30"></div>
             <div class="small-heading-row">
                 Open Weave
             </div>
@@ -137,7 +135,7 @@ and open the template in the editor.
             <?php outputCode("shawl_steel3_2x", "png", "steel_grey_shawl1", "png", ""); ?>
         </div>
         <div class="copy-block block2 shawl-text2">
-            <br>
+            <div class="spacer30"></div>
             <div class="small-heading-row">
                 Steel Grey Shawl<span class="dev"><?php echo $blockNum++; ?></span>
             </div>
@@ -164,16 +162,14 @@ and open the template in the editor.
             </div>
         </div>
         <div class="copy-block-spacer"></div>
-        <!--        </div>
-          <div class="shawls-container">-->
-        `
+
         <!--BLOCK 3-->
-        <div></div>
+
         <div class="image-block steel-grey-shawl-images">
             <?php outputCode("shawl_white_2a", "jpg", "shawl_white_1a", "jpg", ""); ?>
         </div>
         <div class="copy-block block2 shawl-text3">
-            <br>
+            <div class="spacer30"></div>
             <div class="small-heading-row">
                 Naturally White Shawl
                 <span class="dev"><?php echo $blockNum++; ?></span>
@@ -202,17 +198,15 @@ and open the template in the editor.
             </div>
         </div>
         <div class="copy-block-spacer"></div>
-        <!--        </div>
-          <div class="shawls-container">-->
+
+
         <!--BLOCK 4-->
 
         <div class="image-block has-insert">
-            <!--<img class="image1" src="./images/shawl_sea_foam.jpg" alt="" >-->
-            <!--<img class="image2" src="./images/detail_sea_thumb.jpg" alt="" >-->
             <?php outputCode("shawl_sea_foam", "jpg", "detail_sea_thumb1", "jpg", ""); ?>
         </div>
         <div class="copy-block block3 shawl-text4">
-            <br>
+            <div class="spacer30"></div>
             <div class="small-heading-row">
                 Open Weave
             </div>
@@ -263,7 +257,7 @@ and open the template in the editor.
             <?php outputCode("shawl_rust_1", "jpg", "shawl_rust2a", "jpg", ""); ?>
         </div>
         <div class="copy-block block2 shawl-text5">
-            <br>
+            <div class="spacer30"></div>
             <div class="small-heading-row">
                 Auburn Rusty Red Shawl
                 <span class="dev"><?php echo $blockNum++; ?></span>
@@ -304,15 +298,10 @@ and open the template in the editor.
 
     <div class="shawls-container">
         <div class="image-block">
-            <!--<img src="./images/wrap_jewel.jpg" alt="" >-->
-
-            <!-- <?php //outputCode("wrap_asm_jewel1", "jpg", "wrap_asm_teal_2a", "jpg", ""); 
-                    ?> -->
             <?php outputCode("asym_jewel_wrap1a_2xC", "png", "wrap_asm_jewel1", "jpg", ""); ?>
         </div>
-        <!--<div id="asymmetrical" class="copy-block shawl-text6">-->
         <div class="copy-block shawl-text6">
-            <br>
+            <div class="spacer30"></div>
             <div class="small-heading-row">
                 Asymmetrical Jewel Wrap<span class="dev"><?php echo $blockNum++; ?></span>
             </div>
@@ -361,7 +350,7 @@ and open the template in the editor.
             <?php outputCode("shawl_steel_1b", "jpg", "shawl_steel_2b", "jpg", ""); ?>
         </div>
         <div class="copy-block shawl-text7">
-            <br>
+            <div class="spacer30"></div>
             <div class="small-heading-row">
                 Asymetrical Wrap in Steel Grey<span class="dev"><?php echo $blockNum++; ?></span>
             </div>
@@ -396,7 +385,7 @@ and open the template in the editor.
             <?php outputCode("black_merino", "jpg", "black_merino2", "jpg", ""); ?>
         </div>
         <div id="asymmetrical" class="copy-block shawl-text8">
-            <br>
+            <div class="spacer30"></div>
             <div class="small-heading-row">
                 Classic Black
             </div>
@@ -434,7 +423,7 @@ and open the template in the editor.
             <?php outputCode("wrap_black_cotton1", "jpg", "wrap_black2", "jpg", ""); ?>
         </div>
         <div id="asymmetrical" class="copy-block shawl-text9">
-            <br>
+            <div class="spacer30"></div>
             <div class="small-heading-row">
                 New!
             </div>
@@ -474,10 +463,9 @@ and open the template in the editor.
 
         <div class="image-block">
             <?php outputCode("knotweed_wrap1a_2x", "png", "shawlsM_v3", "png", ""); ?>
-            <!-- <img src="./images/shawlsM_v3.png" alt=""> -->
         </div>
         <div id="asymmetrical" class="copy-block shawl-text10">
-            <br>
+            <div class="spacer30"></div>
             <div class="small-heading-row">
                 <div>Open Weave</div>
                 <div>Knotweed Wrap<span class="dev"><?php echo $blockNum++; ?></span>
@@ -529,7 +517,7 @@ and open the template in the editor.
             <?php outputCode("scarf_lobster_red", "jpg", "scarf_red_1b", "jpg", ""); ?>
         </div>
         <div id="asymmetrical" class="copy-block shawl-text11">
-            <br>
+            <div class="spacer30"></div>
             <div class="small-heading-row">
                 <div>Lobster Red Scarf<span class="dev"><?php echo $blockNum++; ?></span>
                 </div>
@@ -569,7 +557,7 @@ and open the template in the editor.
             <img src="./images/scarf_knot.jpg" alt="">
         </div>
         <div id="asymmetrical" class="copy-block shawl-text12">
-            <br>
+            <div class="spacer30"></div>
             <div class="small-heading-row">
                 Open Weave Knotweed Scarf<span class="dev"><?php echo $blockNum++; ?></span>
             </div>
@@ -604,11 +592,13 @@ and open the template in the editor.
         <!--BLOCK 13-->
 
         <div class="image-block">
-            <!-- <img src="./images/scarf_sea_glass.jpg" alt=""> -->
             <?php outputCode("ocean_blue_scarf1_2x", "png", "scarf_sea_glass", "jpg", ""); ?>
         </div>
         <div id="asymmetrical" class="copy-block shawl-text13">
-            <br>
+            <div class="spacer30"></div>
+            <div class="small-heading-row">
+                New Color!
+            </div>
             <div class="small-heading-row">
                 Merino / Cotton Bouclé Scarf<span class="dev"><?php echo $blockNum++; ?></span>
             </div>
@@ -628,13 +618,6 @@ and open the template in the editor.
                 <div class="add-to-cart">
                     <span></span>
                     <span>
-                        <!-- <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                            <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="7JKAR8CNBQS5Q">
-                            <input type="image" src="./images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
-                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                        </form> -->
-
                         <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                             <input type="hidden" name="cmd" value="_s-xclick">
                             <input type="hidden" name="hosted_button_id" value="7JKAR8CNBQS5Q">
