@@ -16,7 +16,7 @@ and open the template in the editor.
     require './includes/globalSiteTag.html';
     ?>
 
-    <title>Village Weaver</title>
+    <title>Maine Village Weaver</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <META NAME="description" CONTENT="hand woven, made in Maine, Made in USA,Maineteam (etsy),Earthyetsy,handweaveronetsy,hand made curtains,

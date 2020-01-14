@@ -18,7 +18,7 @@ and open the template in the editor.
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>About</title>
+    <title>About - Maine Village Weaver</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./css/about.css" media="screen" rel="stylesheet" type="text/css">

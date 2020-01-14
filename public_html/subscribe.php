@@ -11,7 +11,7 @@ and open the template in the editor.
     require './includes/globalSiteTag.html';
     ?>
 
-    <title>Subscribe</title>
+    <title>Subscribe - Maine Village Weaver</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
